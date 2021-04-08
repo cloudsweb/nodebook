@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [
     vue(),
     fsPlugin({
-      '/@data': serveDir('examples'),
+      '/@data': serveDir('samples'),
     })
   ],
 })
