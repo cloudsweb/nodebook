@@ -1,5 +1,5 @@
 import vue from '@vitejs/plugin-vue'
-import { serveDir, fsPlugin } from '@vitejs/fs-server'
+import { serveDir, fsPlugin } from 'vitejs-fs-server'
 import { defineConfig } from 'vite'
 
 export default defineConfig({
